@@ -10,16 +10,14 @@
 <?php
 
 $table ="videogames";
-$bdd = newPDO('mysql:host=localhost;dbname=videogames;charset=utf8', 'root', '');
+$bdd = new PDO('mysql:host=localhost;dbname=videogames;charset=utf8', 'root', '');
 $reponse = $bdd->query('select * from '.$table);
 
+?>
 <form method="GET">
     <input type="search" name="s" placeholder="Rechercher un jeu">
     <input type="submit" name="envoyer" placeholder="Rechercher">
 </form>
-
-?>
-
 
 <footer>
 </footer>
