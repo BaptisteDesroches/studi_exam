@@ -1,23 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <title>Page jeux vidéo recherche</title>
-<body>
-<!-- menu part -->
-<nav class="box">
-  <img class="logo" src="assets\logo.JPG">
-  <ul>
-    <li><a href="Actualités">Actualités</a></li>
-    <li><a href="Jeux">Jeux</a></li>
-  </ul>
-  <!-- search bar part -->
-  <form name="fo" method="get" action="">
-    <input class="search" type="text" name="keywords" placeholder="Rechercher un jeu">
-    <input class="search" type="submit" name="valider" value="Rechercher">
-  </form>
 
   <!-- Inscription/Identification renvoi part -->
   <ul>
